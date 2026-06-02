@@ -1,0 +1,7 @@
+Admin|1|Администратор|admin@agrolink.bg|admin123
+Producer|2|Иван Георгиев|ivan@gmail.com|ivan123|Татарево
+Producer|3|Мария Петрова|maria@gmail.com|maria123|Бачково
+Producer|4|Стоян Смолянов|stoyan@gmail.com|stoyan123|Широка лъка
+Customer|5|Георги Димитров|gosho@gmail.com|gosho123
+Customer|6|Елена Николова|elena@gmail.com|elena123
+Customer|7|Иван|ivanivan@gmail.com|ivanivanivan
