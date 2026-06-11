@@ -20,7 +20,7 @@ public:
         }
     }
 
-    // Изтриване по ID с обикновен цикъл
+    // Изтриване по ID
     bool removeById(int id) {
         for (auto it = items.begin(); it != items.end(); ++it) {
             if ((*it)->getId() == id) {
@@ -31,7 +31,7 @@ public:
         return false;
     }
 
-    // Намиране по ID с обикновен цикъл
+    // Намиране по ID
     shared_ptr<T> findById(int id) const {
         for (const auto& item : items) {
             if (item->getId() == id) {
