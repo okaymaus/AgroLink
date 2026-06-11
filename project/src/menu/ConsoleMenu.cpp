@@ -37,7 +37,7 @@ static int readInt() {
 
 ConsoleMenu::ConsoleMenu(Marketplace& mp) : marketplace(mp) {}
 
-// ================= Главно Меню =================
+// Главно Меню
 
 MainMenu::MainMenu(Marketplace& mp) : ConsoleMenu(mp) {}
 
@@ -131,7 +131,7 @@ void MainMenu::handleRegister() {
     }
 }
 
-// ================= Меню Клиент =================
+//Меню Клиент
 
 CustomerMenu::CustomerMenu(Marketplace& mp) : ConsoleMenu(mp) {}
 
@@ -267,7 +267,7 @@ void CustomerMenu::handleViewOrderHistory() {
     }
 }
 
-// ================= Меню Производител =================
+//Меню Производител
 
 ProducerMenu::ProducerMenu(Marketplace& mp) : ConsoleMenu(mp) {}
 
@@ -407,7 +407,7 @@ void ProducerMenu::handleViewReviews() {
     }
 }
 
-// ================= Меню Админ =================
+//Меню Админ
 
 AdminMenu::AdminMenu(Marketplace& mp) : ConsoleMenu(mp) {}
 
