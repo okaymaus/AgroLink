@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Обикновен шаблон за репозитори
+
 template <typename T>
 class Repository {
 protected:
